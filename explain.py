@@ -167,7 +167,8 @@ if __name__ == '__main__':
     testcases = [('We discussed about the issue .','We discussed [-about-] the issue .'),\
     ("The train arrived at exactly twelve past three .","The train arrived at exactly twelve {+minutes+} past three."),\
     ("I am a honest teacher.","I am [-a-] {+an+} honest teacher."),\
-    ("School finishes at five in morning .","School finishes at five in {+the+} morning .")]
+    ("School finishes at five in morning .","School finishes at five in {+the+} morning ."),\
+    ("He refused to accept responsibility for his acts .","He refused to accept responsibility for his [-acts-]{+actions+} .")]
     for id,(original,correction) in enumerate(testcases):
         print('case',id)
         cal_explain(original,correction)
