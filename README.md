@@ -1,8 +1,8 @@
 # error_explanation
 ## usage: 
 1. python explain.py
-2. input的correction format是根據 http://thor.nlplab.cc:1214/translate/We%discussed%about%the%issue.
- * 尾端 “We discussed about the issue .”是錯誤句子，藉由改變尾端，會出現新的correction
+2. 利用 cal_explain（original, correction）得到結果
+3. correction format 為testcase所示
 ## test case:
 1. case1
   * original : We discussed about the issue .
