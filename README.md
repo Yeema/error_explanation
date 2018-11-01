@@ -1,7 +1,7 @@
 # error_explanation
 ## usage: 
 1. python explain.py
-2. input的correction format是根據 http://thor.nlplab.cc:1214/translate/We discussed about the issue .
+2. input的correction format是根據 [http://thor.nlplab.cc:1214/translate/We discussed about the issue.]
  * 尾端 “We discussed about the issue .”是錯誤句子，藉由改變尾端，會出現新的correction
 ## test case:
 1. case1
@@ -16,3 +16,5 @@
 4. case4
   * School finishes at five in morning .
   * School finishes at five in {+the+} morning .
+
+[http://thor.nlplab.cc:1214/translate/We discussed about the issue.]: http://thor.nlplab.cc:1214/translate/We discussed about the issue.
