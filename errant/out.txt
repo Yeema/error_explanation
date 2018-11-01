@@ -1,0 +1,8 @@
+S I hope you all have a enjoyable stay.
+A 5 6|||R:DET|||an|||REQUIRED|||-NONE-|||0
+
+S My husband is doing a MSc in civil engineering.
+A 4 5|||R:DET|||an|||REQUIRED|||-NONE-|||0
+
+S Since capital punishment was abandoned, the crime rate has increased.A 4 5|||R:PREP|||abolished,|||REQUIRED|||-NONE-|||0
+
