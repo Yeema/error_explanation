@@ -1,7 +1,7 @@
 # error_explanation
 ## usage: 
 1. python explain.py
-2. input是根據 http://thor.nlplab.cc:1214/translate/“wrong sentences here"
+2. input是根據 http://thor.nlplab.cc:1214/translate/'wrong sentences here'
 ## test case:
 1. case1
   * original : We discussed about the issue .
