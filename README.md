@@ -29,3 +29,6 @@
 3. word2pattern:
   * dict
   * word2pattern[part][head]=(list)patter_grammars
+4. tagMap:
+  * dict
+  * goal: mapping pos_tag to errant decoding
