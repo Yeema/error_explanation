@@ -19,4 +19,13 @@
 5. case5
   * He refused to accept responsibility for his acts .
   * He refused to accept responsibility for his [-acts-]{+actions+} ."
-
+## file description:
+1. pattern2word: 
+  * dict
+  * pattern2word[part][pattern_grammars]=(list)words
+2. pat2explain:
+  * dict
+  * pat2explain[part][pattern_grammar]=(list)longman_explains
+3. word2pattern:
+  * dict
+  * word2pattern[part][head]=(list)patter_grammars
