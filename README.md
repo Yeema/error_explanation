@@ -16,4 +16,7 @@
 4. case4
   * School finishes at five in morning .
   * School finishes at five in {+the+} morning .
+5. case5
+  * He refused to accept responsibility for his acts .
+  * He refused to accept responsibility for his [-acts-]{+actions+} ."
 
