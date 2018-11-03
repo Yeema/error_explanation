@@ -9,7 +9,7 @@ wordnet_lemmatizer = WordNetLemmatizer()
 dictWord = eval(open('GPs.txt', 'r').read())
 phraseV = eval(open('phrase.txt', 'r').read())
 ex_dict = defaultdict(lambda: defaultdict(lambda: defaultdict(lambda: defaultdict(lambda: defaultdict(list)))))
-with open('explain_dict.json') as f:
+with open('data_longmanMapping/explain_dict.json') as f:
     tmp_ex_dict = json.load(f)
 for cat, ex in tmp_ex_dict.items():
     for key,wrong_key in ex.items():
@@ -18,7 +18,7 @@ for cat, ex in tmp_ex_dict.items():
                 for explain , worong_sent in explains.items():
                     ex_dict[cat][key][w_key][headkey][explain].append(worong_sent)
                     
-with open('tagMap.json') as f:
+with open('data_longmanMapping/tagMap.json') as f:
     tagMap = json.load(f)
 # DET PREP PART PUNCT
 pos_map = {'N':'NOUN','J':'ADJ','V':'VERB'}
